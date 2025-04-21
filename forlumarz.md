@@ -1,4 +1,6 @@
+```mermaid
 graph TD
+    A[Test] --> B(Diagram);
     A[Start - Wprowadzenie] --> B(Sekcja 0: Twoje Dane - Wymagane);
     B --> C(Sekcja I: Podstawowe Informacje Biegowe - Wymagane);
     C --> D(Sekcja II: Poziom Wytrenowania i Parametry Fizjologiczne - Opcjonalnie);
@@ -16,3 +18,4 @@ graph TD
 
     classDef section fill:#a2e0a2,stroke:#333,stroke-width:2px;
     classDef decision fill:#ffcccc,stroke:#333,stroke-width:2px;
+```
